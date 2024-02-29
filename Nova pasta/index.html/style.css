@@ -1,10 +1,37 @@
-body{
-     font-family: Arial, Helvetica, sans-serif;
-     margin: 20px;
-     text-align: center;
-     background-color: aliceblue;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    text-align: center;
+    background-color: rgb(141, 173, 89);
+    color: black;
 
-    
+
 }
 
-header{}
+header {
+    background-color: crimson;
+    padding;
+
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: darkgoldenrod;
+    padding: 5;
+}
+
+nav a{
+
+color: darkmagenta;
+text text-decoration: none;
+
+}
+
+nav a:hover{
+
+color: lawngreen;
+text-decoration: underline;
+cursor: crosshair;
+
+}
