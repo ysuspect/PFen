@@ -34,3 +34,26 @@
     opacity: 0;
     transition: opacity 0.3s ease;
 }
+.container figure:hover::after {
+  opacity: 0.5;
+
+}
+
+.container figcaption{
+position: absolute;
+bottom: -50px;*
+left: 0;
+width: 100%;
+padding: 10px;
+background-color: rgba(60, 12, 104, 0.5);
+color: red;
+text-align: center;
+transition:bottom 0.3s ease;
+
+}
+
+.container figure:hover figcaption{
+bottom: 0;
+
+}
+
